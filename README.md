@@ -14,7 +14,7 @@ jengapgw-joomla
 9. Licence
 
 ### Synopsis
-Since Joomla E-commerce site does not provide apayment plattform that supports local payment options available in Kenya,most merchants have a hard time trying to intergrate payments. The Jengapgw- joomla  application is a plugin to solve this problem.It  allows Joomla Merchants be able to receive payment on their Equity and shoopers checkout using the Jenga Payment Gateway API.
+Since Joomla E-commerce site does not provide a payment plattform that supports local payment options available in Kenya,most merchants have a hard time trying to intergrate payments using the local payment solutions. The Jengapgw- joomla  application is a plugin to solve this problem.It  allows Joomla Merchants be able to receive payment on their Equity accounts andbuyers checkout using their Equity bank through the Jenga Payment Gateway API.
 
 
 ### Collaborators
@@ -44,15 +44,21 @@ English
 
 
 #### Joomla-J2 store
+prerequisites:
+  * LAMP or XAMPP
+
 Assumptions:
-You have fully installed Joomla Site and onfigured J2 store. If not, follow this links to learn about joomla installation and j2 store configurations.
-[joomla on ubuntu](https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/)
-[joomla on windows](https://websiteforstudents.com/install-joomla-cms-on-windows-10-desktop-server-with-xampp-support/)
- To install j2 store : Navigate to the administrator side of your Joomla store > go to extensions drop-down > click on manage > navigate to install>click install from web and search J2 store then click install. Configure the settings and enable J2 store.
+You have fully installed Joomla Site and onfigured J2 store. If not, follow this links to download  joomla and j2 store configurations.
+* [joomla on ubuntu](https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/)
+* [joomla on windows](https://websiteforstudents.com/install-joomla-cms-on-windows-10-desktop-server-with-xampp-support/)
+
+ - To install j2 store : Navigate to the administrator side of your Joomla store > go to extensions drop-down > click on manage > navigate to install>click install from web and search J2 store then click install.
+ - On the J2 store drop down,click on dashboard to  Configure the basic settings and enable J2 store.[read more](https://docs.j2store.org/)
 
 
  #### Intergrating the jengapgw-joomla plugin
- 1. Clone this repository by running this command[]
+ 1. Clone this repository by running this command[git clone https://github.com/Gichimu/jengapgw-joomla.git]
+ 2 .
 
 
 ### Contributing
