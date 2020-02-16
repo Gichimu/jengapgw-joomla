@@ -6,7 +6,7 @@ jengapgw-joomla
 1. Synopsis
 2. Collaborators
 3. Language
-4. Behabior Driven Development
+4. Behavior Driven Development
 5. Set Up and Installation
 6. Contributing
 7. Technologies used
@@ -73,5 +73,5 @@ The developer's team invites pull requests for major changes.If interested,pleas
 
 
 ## License
-[MIT]()
+[MIT](https://github.com/Gichimu/jengapgw-joomla/blob/master/LICENSE)
 
