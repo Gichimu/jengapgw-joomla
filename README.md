@@ -58,7 +58,10 @@ You have fully installed Joomla Site and onfigured J2 store. If not, follow this
 
  #### Intergrating the jengapgw-joomla plugin
  1. Clone this repository by running this command[git clone https://github.com/Gichimu/jengapgw-joomla.git]
- 2 .
+ 2. Go to J2 store dropdown on admin dashboard of Joomla.
+ 3. Navigate to Setup and select Payment methods.
+ 4. 
+
 
 
 ### Contributing
@@ -66,7 +69,7 @@ The developer's team invites pull requests for major changes.If interested,pleas
  ##### Contributing proccess
  * Git clone this repository and create your won branch:
 [git checkout https://github.com/Gichimu/jengapgw-joomla.git-bname_for_new_branch]
-* Make changes and test
+* Make changes and test them.
 * Submit Pull Request with comprehensive details of  the changes
 ### Technologies used
   * Vanilla PHP
