@@ -1,12 +1,12 @@
-## App Name :
-jengapgw-joomla
-![image](https://kenyayote.com/wp-content/uploads/2018/08/Jenga-Payment-Gateway-and-Jenga-API-integration-registration-charges-and-what-it-is-equity-bank.jpg)
+## App Name
+
+**JENGAPGW-JOOMLA**
 
 ## Table of Contents
 1. Synopsis
 2. Collaborators
 3. Language
-4. Behabior Driven Development
+4. Behavior Driven Development
 5. Set Up and Installation
 6. Contributing
 7. Technologies used
@@ -14,16 +14,16 @@ jengapgw-joomla
 9. Licence
 
 ### Synopsis
-Since Joomla E-commerce site does not provide apayment plattform that supports local payment options available in Kenya,most merchants have a hard time trying to intergrate payments. The Jengapgw- joomla  application is a plugin to solve this problem.It  allows Joomla Merchants be able to receive payment on their Equity and shoopers checkout using the Jenga Payment Gateway API.
+Since Joomla E-commerce site does not provide a payment plattform that supports local payment options available in Kenya,most merchants have a hard time trying to intergrate payments using the local payment solutions. The Jengapgw- joomla  application is a plugin to solve this problem.It  allows Joomla Merchants be able to receive payment on their Equity accounts andbuyers checkout using their Equity bank through the Jenga Payment Gateway API.
 
 
 ### Collaborators
-* Erick Gichimu[https://github.com/Gichimu]
-* Job Musembi[https://github.com/JobMusembi]
-* Joyce Nyakinyua[https://github.com]
-* Leon Bichanga[https://github.com]
-* Sam Wendo[https://github.com]
-* Virginiah Periah[https://github.com/virginiah894]
+* [Erick Gichimu](https://github.com/Gichimu)
+* [Job Musembi](https://github.com/JobMusembi)
+* [Joyce Nyakinyua](https://github.com/Nyakinyua)
+* [Leon Bichanga](https://github.com/Bchizi)
+* [Sam Wendo](https://github.com/Samwendo)
+* [Virginiah Periah](https://github.com/virginiah894)
 
 ### Language
 English
@@ -44,23 +44,39 @@ English
 
 
 #### Joomla-J2 store
+prerequisites:
+  * LAMP or XAMPP
+
 Assumptions:
-You have fully installed Joomla Site and onfigured J2 store. If not, follow this links to learn about joomla installation and j2 store configurations.
-[joomla on ubuntu](https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/)
-[joomla on windows](https://websiteforstudents.com/install-joomla-cms-on-windows-10-desktop-server-with-xampp-support/)
- To install j2 store : Navigate to the administrator side of your Joomla store > go to extensions drop-down > click on manage > navigate to install>click install from web and search J2 store then click install. Configure the settings and enable J2 store.
+You have fully installed Joomla Site and onfigured J2 store. If not, follow this links to download  joomla and j2 store configurations respectively.
+* [joomla on ubuntu](https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/)
+* [joomla on windows](https://websiteforstudents.com/install-joomla-cms-on-windows-10-desktop-server-with-xampp-support/)
+
+ - For guidlines on J2 configurations [click here](https://docs.j2store.org/)
 
 
  #### Intergrating the jengapgw-joomla plugin
- 1. Clone this repository by running this command[]
+ 1. Clone this repository by running this command on your terminal
+ [git clone https://github.com/Gichimu/jengapgw-joomla.git]
+ 2. Compress the folder.The folder **MUST** be compressed.
+ 3. On the navigation click on Extensions > manage > install > and click on Upload Package and select your zip folder.
+![image](img/photo.png)
+
+ 4. The payment option will be available and all the merchant needs to do is fill in the form with the credentials from the Jenga HQ portal.
+ - The form looks like this.
+ ![image](img/form.png)
+ 5. After filling the form select the enabled drop-down on the right and click the save button on top.
+ 6. The  jengapgw-joomla checkout will be available on your store.
+
 
 
 ### Contributing
-The developer's team invites pull requests for major changes.If interested,please open an issue first to discuss what you would like to change and ensure your tests are appropriate.
+The developer's team invites pull requests for major changes.
+If interested,please open an issue first to discuss what you would like to change and ensure your tests are appropriate.
  ##### Contributing proccess
  * Git clone this repository and create your won branch:
 [git checkout https://github.com/Gichimu/jengapgw-joomla.git-bname_for_new_branch]
-* Make changes and test
+* Make changes and test them.
 * Submit Pull Request with comprehensive details of  the changes
 ### Technologies used
   * Vanilla PHP
@@ -73,5 +89,5 @@ The developer's team invites pull requests for major changes.If interested,pleas
 
 
 ## License
-[MIT]()
+[MIT](https://github.com/Gichimu/jengapgw-joomla/blob/master/LICENSE)
 
