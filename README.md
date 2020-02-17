@@ -63,7 +63,11 @@ You have fully installed Joomla Site and onfigured J2 store. If not, follow this
  3. On the navigation click on Extensions > manage > install > and click on Upload Package and select your zip folder.
 ![image](img/photo.png)
 
- 4. 
+ 4. The payment option will be available and all the merchant needs to do is fill in the form with the credentials from the Jenga HQ portal.
+ - The form looks like this.
+ ![image](img/form.png)
+ 5. After filling the form selcet the enabled drop-down on the right and select save.
+ 6.The  jengapgw-joomla checkout will be available on your store.
 
 
 
