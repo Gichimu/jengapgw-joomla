@@ -20,7 +20,7 @@ Since Joomla E-commerce site does not provide a payment plattform that supports 
 ### Collaborators
 * [Erick Gichimu](https://github.com/Gichimu)
 * [Job Musembi](https://github.com/JobMusembi)
-* {Joyce Nyakinyua](https://github.com)
+* [Joyce Nyakinyua](https://github.com)
 * [Leon Bichanga](https://github.com)
 * [Sam Wendo](https://github.com/Samwendo)
 * [Virginiah Periah](https://github.com/virginiah894)
