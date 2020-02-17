@@ -20,8 +20,8 @@ Since Joomla E-commerce site does not provide a payment plattform that supports 
 ### Collaborators
 * [Erick Gichimu](https://github.com/Gichimu)
 * [Job Musembi](https://github.com/JobMusembi)
-* [Joyce Nyakinyua](https://github.com)
-* [Leon Bichanga](https://github.com)
+* [Joyce Nyakinyua](https://github.com/Nyakinyua)
+* [Leon Bichanga](https://github.com/Bchizi)
 * [Sam Wendo](https://github.com/Samwendo)
 * [Virginiah Periah](https://github.com/virginiah894)
 
@@ -57,9 +57,12 @@ You have fully installed Joomla Site and onfigured J2 store. If not, follow this
 
 
  #### Intergrating the jengapgw-joomla plugin
- 1. Clone this repository by running this command[git clone https://github.com/Gichimu/jengapgw-joomla.git]
- 2. Go to J2 store dropdown on admin dashboard of Joomla.
- 3. Navigate to Setup and select Payment methods.
+ 1. Clone this repository by running this command on your terminal 
+ [git clone https://github.com/Gichimu/jengapgw-joomla.git]
+ 2. Compress the folder.The folder **MUST** be compressed.
+ 3. On the navigation click on Extensions > manage > install > and click on Upload Package and select your zip folder.
+![image](img/photo.png)
+
  4. 
 
 
