@@ -52,7 +52,7 @@ You have fully installed Joomla Site and onfigured J2 store. If not, follow this
 * [joomla on ubuntu](https://hostadvice.com/how-to/how-to-install-joomla-on-an-ubuntu-18-04-vps-or-dedicated-server/)
 * [joomla on windows](https://websiteforstudents.com/install-joomla-cms-on-windows-10-desktop-server-with-xampp-support/)
 
- - For guidlines on J2 configurations[click here](https://docs.j2store.org/)
+ - For guidlines on J2 configurations [click here](https://docs.j2store.org/)
 
 
  #### Intergrating the jengapgw-joomla plugin
